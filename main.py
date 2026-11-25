@@ -2,7 +2,8 @@
 """The Moon Finally Answers Back.
 
 Writes the Moon's one-line comeback to $MAKEFUN_OUTPUT_DIR/entry.txt
-(default /output) and prints the same line to stdout.
+(default /output) and prints the same line to stdout: four billion years
+of wishes, howls, and 2 a.m. promises, answered with a wish of its own.
 
 Deterministic: no network, no randomness, no clock.
 """
@@ -12,7 +13,7 @@ import stat
 
 ENTRY = (
     "Four billion years of wishes, howls, and 2 a.m. promises \u2014 "
-    "and not one of you ever wished me a happy birthday."
+    "and all I ever wished for was one quiet night with nobody howling at me."
 )
 
 
